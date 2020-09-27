@@ -1,0 +1,452 @@
+body{
+font-family: "Calibri";
+margin: 10px;
+padding: 0px;
+
+color: white;
+font-size: 12px;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+absolute: fixed;
+}
+
+#one{
+margin: -11px 0px 0px 580px;
+background-color: black;
+
+}
+
+
+ul{
+margin:0px;
+padding:0px;
+list-style:none;
+}
+
+ul li{
+margin: 0px;
+padding: 0px;
+float:left;
+width:100px;
+height:25px;
+background-color:black;
+opacity:.9;
+text-align: left;
+font-size: 12px;
+word-spacing: 1px;
+line-height: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+
+ul li a:hover{
+  color: orange;
+
+}
+
+ul li ul li{
+  display:none;
+}
+
+ul li:hover ul li{
+  display: block;
+}
+
+.img3{
+  margin: 10px 10px 10px -950px;
+
+}
+
+#img1{
+  margin: -40px 150px;
+  width: 150px;
+  background-color: black;
+}
+
+.in{
+  margin: -19px 50px;
+  font-size: 14px;
+}
+
+#img1 a{
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+#img1 a:hover{
+  color: orange;
+}
+
+#img2{
+  margin: 0px 0px 0px 60px;
+}
+
+.in1{
+  margin: -12px 40px;
+  font-size: 14px;
+}
+#img2 a{
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+#img2 a:hover{
+  color: orange;
+}
+
+#three{
+  margin: -45px 670px;
+  font-size: 14px;
+  width: 60px;
+  word-spacing: -3.5px;
+
+}
+
+
+#three a{
+
+  color: white;
+  text-decoration: none;
+}
+
+#three a:hover{
+  color: orange;
+}
+
+h1 ,h2, h3,h4,h5,h6,h7,h8,h9{
+font-size:30pt;
+background color:black;
+font:white;}
+p{font-size:12pt;
+align:center;
+line-spacing:.2pt;
+}
+
+#hr1 {
+  width: 120px;
+
+  margin: -10px 0px 0px 20px;
+}
+p{
+  color: black;
+  margin: -10px 640px;
+}
+#hr2 {
+  width: 100px;
+  margin: -13px 0px 0px 400px;
+}
+#pre{
+  margin: 0px 500px;
+}
+#cont{
+  margin: 10px 10px 120px 70px;
+  font-family: "times new roman";
+}
+
+#career{
+  font-size: 11px;
+  margin: -140px 10px 10px 75px;
+  font-family: "times new roman";
+}
+#contact{
+  margin: -80px 10px 10px 50px;
+  background-color: black;
+
+}
+
+.img3{
+  margin: -10px 20px;
+}
+
+div{
+  background-color: black;
+}
+
+.div1{
+  background-color: white;
+  color: black;
+}
+
+.text{
+  margin: -40px 500px;
+  width: 260px;
+  height: 40px;
+  font-size: 11px;
+  padding: 0px 0px 0px 30px;
+  border-color: black;
+
+}
+#hd{
+  margin: 100px 0px 10px 550px;
+  font-size: 40px;
+  font-family: "Bahnschrift Condensed";
+  background-color: white;
+  color: black;
+  font-weight: bold;
+
+}
+
+#btn{
+  background-color: white;
+  color: #000000;
+  margin: 60px 500px;
+  width: 300px;
+  height: 40px;
+  padding: 0px 180px 0px 0px;
+  border-radius: 100px;
+  border-color: orange;
+}
+#hd1{
+  margin: -12px 10px 0px 232px;
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+#hd2{
+  margin: 10px 10px 0px 232px;
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+#hd3{
+  margin: 10px 10px 0px 232px;
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+#hd4{
+  margin: 10px 10px 0px 232px;
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+#hd5{
+  margin: 12px 10px 0px 135px;
+  font-size: 16px;
+  font-family: Calibri;
+}
+
+#hd111{
+  font-size: 24px;
+  font-family: "Bahnschrift Condensed";
+  margin:10px 0px 0px 450px;
+   color: white;
+}
+
+#hd1111{
+  font-size: 24px;
+  font-family: "Bahnschrift Condensed";
+  margin:-28px 610px;
+  color: rgb(247, 116, 2);
+}
+
+#div12{
+  width: 1150px;
+}
+select{
+  border: 1px solid #777;
+  padding: 10px 20px 10px 30px;
+  border-radius: 3px;
+  color: #565656;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.custom-select {
+  border-color: white;
+  position: relative;
+  font-family: Arial;
+  margin: 50px 415px;
+  width: 270px;
+  background-color: black;
+  color: white;
+  height: 45px;
+  display: inline-block;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+
+}
+.select-selected {
+  background-color: black;
+  color: white;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 30px;
+  border-color: solid white;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: white;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: solid white;
+  padding: 8px 16px;
+  border: 10px
+  border-color: white;
+  cursor: pointer;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: black;
+}
+
+#img11{
+  margin: -20px 220px 20px 430px;
+}
+
+#img12{
+  margin: -55px 220px 60px 490px;
+}
+
+#img13{
+  margin: -95px 220px 100px 550px;
+}
+
+#img14{
+  margin: -135px 220px 140px 625px;
+}
+
+
+#hd11{
+  margin:-120px 200px 50px 250px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd11 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd11 a:hover{
+  color: orange;
+
+}
+
+
+#hd12{
+
+  margin:-70px 200px 50px 350px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd12 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd12 a:hover{
+  color: orange;
+}
+
+#hd13{
+  margin:-70px 200px 50px 500px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd13 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd13 a:hover{
+  color: orange;
+}
+
+
+#hd15{
+  margin:-70px 200px 50px 640px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd15 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd15 a:hover{
+  color: orange;
+}
+
+
+#hd20 {
+  margin:-70px 200px 50px 760px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd20 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd20 a:hover{
+  color: orange;
+}
+
+.im{
+  margin: -10px 500px;
+}
+
+#hd24{
+  color: white;
+  margin: 15px 248px;
+  font-size: 10px;
+  opacity:.6;
+}

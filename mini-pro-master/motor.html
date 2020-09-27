@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Harley Davidson USA</title>
+  <link rel="stylesheet" type="text/css" href="data-motor.css"/>
+</head>
+<body>
+  <div id="divide">
+  </br>
+    <img class="img3" src="hd.jpg" width="90px" />
+    <pre id="img1"><img src="p-bike.png"  width="40px"/> <a href="#" class="in">MOTORCYCLE</a></pre>
+</br></br></br></br></br></br>
+</div>
+<div id="one">
+<nav id="nav1">
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li id="dealer"><a href="#">FIND A DEALER</a></li>
+    <li><a href="#">ABOUT US</a>
+      <ul>
+        <li><a href="our-company.html">Our Company</a></li>
+        <li><a a href="career.html">Careers</a></li>
+        <li><a a href="our-responsibility.html">Our Responsibility</a></li>
+        <li><a href="org-c.html">Contact Us</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+
+<div id="div1">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="m2.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="m3.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="m4.jpg" style="width:100%">
+
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<pre id="hd">HARLEY-DAVIDSON®
+MOTORCYCLES</pre>
+
+<pre id="hd1">In the saddle, you breathe deeper, smile bigger, and your heart beats louder.
+Responsibilities blow off your back. A ride on a Harley-Davidson® motorcycle can make any
+weekend epic. It can turn a daily commute into an adrenaline-fest. A Harley-Davidson®
+blows things wide open. Pure freedom. As big and real as it gets.</pre>
+</br></br></br></br></br></br>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<div class="gallery">
+  <pre id="hd5"><b>HARLEY-DAVIDSON STREET®</b></pre>
+<pre id="hd6">Built to shred city streets. Sleek and nimble, with an authentic urban
+                                                    attitude.</pre>
+
+<a href="streer-750.html"><img class="img11" src="s750.jpg"/></a>
+
+<pre id="pre11"><b>HARLEY-DAVIDSON STREET<sup>TM</sup> 750</b></pre>
+
+<pre id="pre111">Starting at Rs.531,000</pre>
+<a href="street-rod.html"><img class="img12" src="srod.jpg"/></a>
+<pre id="pre12"><b>STREET ROD<sup>TM</sup></b></pre>
+
+<pre id="pre112">Starting at Rs.651,000</pre>
+<pre id="hd7"><b>SPORTSTER<sup>&reg</sup></b></pre>
+<pre id="hd6">Racing. Land speed records. Epic road trips. The motorcycle that's done
+                                        it all, now does it all better.<pre>
+<a href="iron-883.html"><img class="img121" src="i883.jpg"/></a>
+<pre id="pre121"><b>IRON 883<sup>TM</sup></b></pre>
+<pre id="pre122">Starting at Rs. 920,000</pre>
+<pre><a href="f48.html"><img class="img131" src="f8.jpg"/></a></pre>
+<pre id="pre131"> FORTY-EIGHT<sup>TM</sup></pre>
+<pre id="pre132">Starting at Rs. 1,055,000</pre>
+<pre><a href="c1200.html"><img class="img141" src="c1200.jpg"/></a></pre>
+<pre id="pre141">1200 CUSTOM</pre>
+<pre id="pre142">Starting at Rs. 1,080,000</pre>
+<a href="road.html"><img class="img151" src="rtm.jpg"/></a>
+<pre id="pre151">ROADSTER<sup>TM</sup></pre>
+<pre id="pre152">Starting at Rs. 1,105,000</pre>
+</div>
+<div class="container">
+<div id="div12">
+  <pre id="hd111"></br><b>HARLEY-DAVIDSON</b></pre>
+  <pre id="hd1111"><b>INDIA</b></pre>
+  <select class="custom-select" class="global-footer__dropdown" switch-countries="true" name="countries" aria-label="Change Location" title="global footer">
+      <option value="selected">CHANGE LOCATION</option>
+
+        <option value="/la/es/" lang="es">Argentina – español</option>
+
+        <option value="/ac/en/" lang="en">Algeria – English</option>
+
+        <option value="/us/en/" lang="en">Aruba – English</option>
+
+        <option value="/au/en/" lang="en">Australia – English</option>
+
+
+
+        <option value="/us/en/" lang="en">Bahamas – English</option>
+
+        <option value="/ac/en/" lang="en">Bahrain – English</option>
+
+
+        <option value="/us/en/" lang="en">Barbados – English</option>
+
+
+
+        <option value="/be/nl/" lang="nl">België – Nederlands</option>
+
+        <option value="/be/fr/" lang="fr">Belgique – français</option>
+
+        <option value="/la/es/" lang="es">Bolivia – español</option>
+
+        <option value="/ap/en/" lang="en">Brunei Darussalam – English</option>
+
+        <option value="/ap/en/" lang="en">Cambodia – English</option>
+
+        <option value="/ca/en/" lang="en">Canada – English</option>
+
+        <option value="/ca/fr/" lang="fr">Canada – français</option>
+
+        <option value="/cz/cs/" lang="cs">Ceská Republika – Cesky</option>
+
+        <option value="/la/es/" lang="es">Chile – español</option>
+
+        <option value="/cn/zh/" lang="zh">China – chinese</option>
+
+        <option value="/la/es/" lang="es">Colombia – español</option>
+
+        <option value="/la/es/" lang="es">Costa Rica – español</option>
+
+        <option value="/eu/en/" lang="en">Croatia – English</option>
+
+        <option value="/gr/el/" lang="el">Cyprus – Greek</option>
+
+        <option value="/dk/da/" lang="da">Danmark – dansk</option>
+
+        <option value="/de/de/" lang="de">Deutschland – deutsch</option>
+
+        <option value="/la/es/" lang="es">Ecuador – español</option>
+
+        <option value="/ac/en/" lang="en">Egypt – English</option>
+
+        <option value="/la/es/" lang="es">El Salvador – español</option>
+
+        <option value="/es/es/" lang="es">España – español</option>
+
+        <option value="/eu/en/" lang="en">Estonia – English</option>
+
+        <option value="/fr/fr/" lang="fr">France – français</option>
+
+        <option value="/us/en/" lang="en">Grand Cayman – English</option>
+
+        <option value="/gr/el/" lang="el">Greece – Greek</option>
+
+        <option value="/gu/en/" lang="en">Guam – English</option>
+
+        <option value="/la/es/" lang="es">Guatemala – español</option>
+
+        <option value="/la/es/" lang="es">Honduras – español</option>
+
+        <option value="/ap/en/" lang="en">Hong Kong – English</option>
+
+        <option value="/in/en/" lang="en">India – English</option>
+
+        <option value="/id/id/" lang="id">Indonesia – Bahasa Indonesia</option>
+
+        <option value="/ie/en/" lang="en">Ireland – English</option>
+
+        <option value="/eu/en/" lang="en">Ísland – English</option>
+
+        <option value="/it/it/" lang="it">Italia – italiano</option>
+
+        <option value="/us/en/" lang="en">Jamaica – English</option>
+
+        <option value="/jp/ja/" lang="ja">Japan – Japanese</option>
+
+        <option value="/ac/en/" lang="en">Jordan – English</option>
+
+
+        <option value="/kr/ko/" lang="ko">Korea – ???</option>
+
+        <option value="/ac/en/" lang="en">Kuwait – English</option>
+
+
+        <option value="/eu/en/" lang="en">Latvija – English</option>
+
+        <option value="/ac/en/" lang="en">Lebanon – English</option>
+
+        <option value="/eu/en/" lang="en">Lietuva – English</option>
+
+        <option value="/lu/fr//" lang="fr">Luxembourg –   français</option>
+
+        <option value="/ap/en/" lang="en">Macau –    English</option>
+
+        <option value="/hu/hu/" lang="hu">Magyarország – magyar</option>
+
+        <option value="/ap/en/" lang="en">Malaysia – English</option>
+
+        <option value="/eu/en/" lang="en">Malta – English</option>
+
+        <option value="/aa/en/" lang="en">Mauritius – English</option>
+
+        <option value="/mx/es/" lang="es">México – español</option>
+
+        <option value="/ac/en/" lang="en">Morocco –    English</option>
+
+        <option value="/ap/en/" lang="en">Myanmar –   English</option>
+
+        <option value="/aa/en/" lang="en">Namibia - English</option>
+
+        <option value="/nl/nl/" lang="nl">Nederland – nederlands</option>
+
+        <option value="/ap/en/" lang="en">New Caledonia –    English</option>
+
+        <option value="/au/en/" lang="en">New Zealand –   English</option>
+
+        <option value="/no/no/" lang="no">Norge – norske</option>
+
+        <option value="/ac/en/" lang="en">Oman – English</option>
+
+
+        <option value="/at/de/" lang="de">Österreich – deutsch</option>
+
+        <option value="/la/es/" lang="es">Panamá – español</option>
+
+        <option value="/la/es/" lang="es">Paraguay – español</option>
+
+        <option value="/la/es/" lang="es">Peru – español</option>
+
+        <option value="/ap/en/" lang="en">Philippines – English</option>
+
+
+        <option value="/pl/pl/" lang="pl">Polska – polski</option>
+
+        <option value="/pt/pt/" lang="pt">Portugal – Português</option>
+
+        <option value="/us/en/" lang="en">Puerto Rico – English</option>
+
+        <option value="/ac/en/" lang="en">Qatar – English</option>
+
+
+        <option value="/la/es/" lang="es">República Dominicana – español</option>
+
+        <option value="/aa/en/" lang="en">Réunion – English</option>
+
+        <option value="/eu/en/" lang="en">România – English</option>
+
+        <option value="/us/en/" lang="en">Saint Maarten – English</option>
+
+        <option value="/ac/en/" lang="en">Saudi Arabia – English</option>
+
+
+
+        <option value="/ch/de/" lang="de">Schweiz – deutsch</option>
+
+        <option value="/eu/en/" lang="en">Serbia – English</option>
+
+        <option value="/ap/en/" lang="en">Singapore – English</option>
+
+        <option value="/eu/en/" lang="en">Slovenija – English</option>
+
+        <option value="/cz/cs/" lang="cs">Slovensko – Cesky</option>
+
+        <option value="/aa/en/" lang="en">South Africa – English</option>
+
+        <option value="/us/en/" lang="en">St. Kitts and Nevis – English</option>
+
+        <option value="/ch/fr/" lang="fr">Suisse – français</option>
+
+        <option value="/fi/fi/" lang="fi">Suomi - Suomeksi</option>
+
+        <option value="/ch/it/" lang="it">Svizzera – italiano</option>
+
+        <option value="/se/sv/" lang="sv">Sverige - Svensk</option>
+
+        <option value="/tw/zh/" lang="zh">Taiwan - Chinese</option>
+
+        <option value="/th/th/" lang="th">Thailand - Thai</option>
+
+        <option value="/tr/tr/" lang="tr">Türkiye – Türk</option>
+
+        <option value="/ac/en/" lang="en">United Arab Emirates – English</option>
+
+        <option value="/gb/en/" lang="en">United Kingdom – English</option>
+
+        <option value="/us/en/" lang="en">United States – English</option>
+
+        <option value="/la/es/" lang="es">Uruguay – español</option>
+
+
+        <option value="/us/en/" lang="en">Virgin Islands (USA) – English</option>
+    </select>
+    <image>
+      <a href="https://www.facebook.com/harley-davidson/" target="_blank"><img src="fb.png" width="20px" id="img11"/></a>
+      <a href="https://twitter.com/harleydavidson" target="_blank"><img src="tw.png" width="35px" id="img12"/></a>
+      <a href="https://www.instagram.com/harleydavidson/" target="_blank"><img src="in.png" width="35px" id="img13"/></a>
+      <a href="https://www.youtube.com/harleydavidson" target="_blank"><img src="yt.png" width="45px" id="img14"/></a>
+    </image>
+    <nav>
+    <pre id="hd11"><a href="https://www.harley-davidson.com/us/en/footer/sitemap.html" data-footer-popup="_self" target="_self">SITE MAP</a></pre>
+    <pre id="hd12"><a href="https://www.harley-davidson.com/us/en/footer/utility/privacy-policy.html" data-footer-popup="_self" target="_self">PRIVACY POLICY</a></pre>
+    <pre id="hd13"><a href="https://www.harley-davidson.com/us/en/footer/utility/terms-of-use.html" data-footer-popup="_self" target="_self">TERMS OF USE</a></pre>
+
+    <pre id="hd15"><a href="https://www.harley-davidson.com/us/en/footer/contact-us.html" data-footer-popup="_self" target="_self">CONTACT US</a></pre>
+    <pre id="hd20"><a href="https://jobs.harley-davidson.com" data-footer-popup="_self" target="_self">CAREERS</a></pre>
+</nav>
+<img src="im.jpg" width="50px" class="im"/>
+<pre id="hd24">
+<pre>©2018 H-D or its affiliates. HARLEY-DAVIDSON, HARLEY, H-D, and the Bar and Shield Logo are among the
+trademarks of H-D U.S.A., LLC. Third party trademarks are the property of their respective owners.</pre>
+
+</div>
+</div>
+</body>
+</html>

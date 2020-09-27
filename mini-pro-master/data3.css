@@ -1,0 +1,372 @@
+div{
+  background-color: black;
+
+}
+
+#hd111{
+  font-size: 24px;
+  font-family: "Bahnschrift Condensed";
+  margin:0px 450px;
+   color: white;
+}
+
+#hd1111{
+  font-size: 24px;
+  font-family: "Bahnschrift Condensed";
+  margin:-28px 610px;
+  color: rgb(247, 116, 2);
+}
+
+select{
+  border: 1px solid #777;
+  padding: .8rem .3rem .8rem .5rem;
+  border-radius: 3px;
+  color: #565656;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.custom-select {
+  border-color: white;
+  position: relative;
+  font-family: Arial;
+  margin: 50px 420px;
+  width: 320px;
+  background-color: black;
+  color: white;
+  height: 45px;
+  display: inline-block;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+
+}
+.select-selected {
+  background-color: black;
+  color: white;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 30px;
+  border-color: solid white;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: white;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: solid white;
+  padding: 8px 16px;
+  border: 10px
+  border-color: white;
+  cursor: pointer;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: black;
+}
+
+#img11{
+  margin: -20px 220px 20px 440px;
+}
+
+#img12{
+  margin: -60px 220px 60px 500px;
+}
+
+#img13{
+  margin: -100px 220px 100px 570px;
+}
+
+#img14{
+  margin: -140px 220px 140px 640px;
+}
+
+#img15{
+  margin: -180px 220px 155px 710px;
+}
+
+#hd11{
+  margin:-130px 200px 50px 150px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd11 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd11 a:hover{
+  color: orange;
+
+}
+
+
+#hd12{
+
+  margin:-70px 200px 50px 250px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd12 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd12 a:hover{
+  color: orange;
+}
+
+#hd13{
+  margin:-70px 200px 50px 400px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd13 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd13 a:hover{
+  color: orange;
+}
+
+#hd14{
+  margin:-70px 200px 50px 540px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd14 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd14 a:hover{
+  color: orange;
+}
+
+#hd15{
+  margin:-70px 200px 50px 720px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd15 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd15 a:hover{
+  color: orange;
+}
+
+#hd16{
+  margin:-70px 200px 50px 830px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd16 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd16 a:hover{
+  color: orange;
+}
+
+#hd17{
+
+  margin: -30px 200px 50px 260px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd17 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd17 a:hover{
+  color: orange;
+}
+
+#hd18{
+  margin:-70px 200px 50px 480px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd18 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd18 a:hover{
+  color: orange;
+}
+
+#hd19 {
+  margin:-70px 200px 50px 550px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd19 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd19 a:hover{
+  color: orange;
+}
+
+#hd20 {
+  margin:-70px 200px 50px 850px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd20 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd20 a:hover{
+  color: orange;
+}
+
+#hd21 {
+  margin:-30px 200px 50px 280px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd21 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd21 a:hover{
+  color: orange;
+}
+
+#hd22 {
+  margin:-70px 200px 50px 590px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd22 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd22 a:hover{
+  color: orange;
+}
+
+#hd23 {
+  margin:-70px 200px 50px 770px;
+  width: 10px;
+  font-family: Calibri;
+  font-size: 16px;
+  opacity:.6;
+  color: rgb(247, 116, 2);
+}
+
+#hd23 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#hd23 a:hover{
+  color: orange;
+}
+
+pre{
+  color: white;
+  margin: 15px 248px;
+  font-size: 10px;
+  opacity:.6;
+}
+
+img{
+  margin: 0px 550px;
+}
